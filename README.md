@@ -15,6 +15,6 @@ Check it out live [https://gehan2005.github.io/MyPortfolio/] 🌍
  
 
 ## 🚀 How to Use  
-1. Clone this repository: `git clone <repo-url>`  
+1. Clone this repository: `git clone <https://github.com/Gehan2005/MyPortfolio>`  
 2. Open `index.html` in your favorite browser.  
 
