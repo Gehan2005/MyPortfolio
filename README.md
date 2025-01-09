@@ -8,7 +8,7 @@ Welcome to my personal portfolio! 🚀 This project showcases my skills, project
 - **JavaScript** ✨  
 
 ## 🌐 Live Demo  
-Check it out live [here](#) 🌍  
+Check it out live [here]([#https://gehan2005.github.io/MyPortfolio/]) 🌍  
 
 ## 📷 Preview  
 ![_E__Navindu_Documents_Gehan_Gehan%20Portfolio_index html (1)](https://github.com/user-attachments/assets/060b27d0-2822-4df1-9ac7-313b2f9af43d)
