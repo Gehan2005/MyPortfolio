@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gehan Sasanka | Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">G</span> Gehan</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">
+        <i class="ri-phone-fill" style="padding-right: 10px"></i> Contact Me</a
+      >
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__content">
+        <div>
+          <h1>
+            <span class="hi">Hi, I'm</span>
+            <span class="name">Gehan Sasanka</span>
+          </h1>
+          <h2 class="changing-text">
+            <span>I am a</span> <span id="roles"></span>
+          </h2>
+        </div>
+
+        <div class="header__btn">
+          <a href="#contact "><button class="btn">Contact Me</button> </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
+        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
+        <img src="assets/about.jpeg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">ABOUT ME</h2>
+        <p class="section__description">
+          I am Gehan Sasanka, a 19-year-old student eagerly awaiting my A/L
+          results. I am passionate about learning and exploring new
+          opportunities to grow both academically and personally. I am motivated
+          to pursue my ambitions and look forward to shaping a bright future
+          through dedication and hard work.
+        </p>
+        <div class="about__btn">
+          <a href="assets/Gehan Sasanka CV .pdf" target="_blank"
+            ><button class="btn">Download CV</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container skills__container" id="skills">
+      <h2 class="section__header">PROFESSIONAL SKILLS</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png " />
+        </div>
+        <div class="skill">
+          <img src="https://img.icons8.com/fluent/512/css3.png " />
+        </div>
+        <div class="skill">
+          <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png " />
+        </div>
+        <div class="skill">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png " />
+        </div>
+        <div class="skill">
+          <img src=" https://static.vecteezy.com/system/resources/previews/020/975/579/non_2x/wordpress-logo-wordpress-icon-transparent-free-png.png " />
+        </div>
+        <div class="skill">
+          <img src="https://static.cdnlogo.com/logos/a/24/adobe-photoshop.png " />
+        </div>
+        <div class="skill">
+          <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
+        </div>
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png" />
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section__container resume__container">
+      <div class="container">
+        <h2 class="section__header" style="margin-bottom:30px ;" >MY RESUME</h2>
+        <!-- Nav Pills -->
+        <ul
+          class="nav nav-pills justify-content-center mb-4"
+          id="resume-tabs"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="education-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#education"
+              type="button"
+              role="tab"
+              aria-controls="education"
+              aria-selected="true"
+            >
+              Education
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="experience-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#experience"
+              type="button"
+              role="tab"
+              aria-controls="experience"
+              aria-selected="false"
+            >
+              Professional Skills
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="certificates-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#certificates"
+              type="button"
+              role="tab"
+              aria-controls="certificates"
+              aria-selected="false"
+            >
+              Certifications & Courses
+            </button>
+          </li>
+         
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="resume-tab-content">
+          <!-- Education Tab -->
+          <div class="tab-pane fade show active" id="education" role="tabpanel" aria-labelledby="education-tab">
+            <div class="resume-card">
+              <h4>Higher National Diploma in Computer Science & Software Engineering</h4>
+              <p>Cardiff Metropolitan University</p>
+              <span class="date-badge">02/2025 - Present</span>
+          </div>
+              <div class="resume-card">
+                  <h4>Certificate Course in  Software Engineering</h4>
+                  <p>National Institute of Business Management</p>
+                  <span class="date-badge">06/2021 - 11/2022</span>
+              </div>
+              <div class="resume-card">
+                  <h4>G.C.E Advanced Level</h4>
+                  <p>President College - Kelaniya</p>
+                  <span class="date-badge">2024</span>
+              </div>
+              <div class="resume-card">
+                <h4>G.C.E Ordinary Level</h4>
+                <p>President College - Kelaniya</p>
+                <span class="date-badge">2021</span>
+            </div>
+          </div>
+      
+          <!-- Experience Tab -->
+          <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="professionalskill-tab">
+            <div class="skills-section">
+              <!-- Design Skills -->
+              <div class="skills-group">
+                <div class="skill">
+                    <span class="skill-name">HTML</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 40%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">WORDPRESS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">70%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                  <span class="skill-name">PHOTOSHOP</span>
+                  <div class="progress">
+                      <div class="progress-bar" style="width: 80%;">60%</div>
+                  </div>
+              </div>
+                
+              </div>
+              <div class="skills-group">
+                <div class="skill">
+                    <span class="skill-name">SSMS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 40%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">C#</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;">60%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">GIT</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">70%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                  <span class="skill-name">FIGMA</span>
+                  <div class="progress">
+                      <div class="progress-bar" style="width: 80%;">80%</div>
+                  </div>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+
+           <!-- Certificate Tab -->
+           <div class="tab-pane fade" id="certificates" role="tabpanel" aria-labelledby="certificates-tab">
+            <div class="resume-card">
+              <h4>Python for Beginners Course </h4>
+              <p>University of Moratuwa</p>
+              <span class="date-badge">04/2023</span>
+          </div>
+            
+        </div>
+          
+        </div>
+        
+          
+      </div>
+      
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">G</div>
+      <h2 class="section__header">Let's Talk With Me!</h2>
+      <p class="section__description">
+        An open invitation to connect, and exploring collaborative opportunities
+        on my personal portfolio website.
+      </p>
+      <div class="contact__socials">
+        <a
+          href="https://www.linkedin.com/in/gehan-sasanka-437844344/"
+          target="_blank"
+          ><i class="ri-linkedin-fill"></i
+        ></a>
+        <a href="gehansasanka2005@gmail.com" target="_blank"
+          ><i class="ri-mail-fill"></i
+        ></a>
+        <a href="https://github.com/Gehan2005" target="_blank"
+          ><i class="ri-github-fill"></i
+        ></a>
+      </div>
+    </section>
+    <footer class="footer">Copyright © 2025. All rights reserved.</footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
